@@ -292,6 +292,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 .booking-media img, .ranking-media img { border-color: var(--line); }
 .activation-photo img { object-position: 65% 50%; }
 
+.tournament-case { display: grid; align-content: center; min-width: 0; padding: var(--panel); background: #e5e9d3; }
+.tournament-case h3 { font-size: clamp(1.5rem, 2.65vw, 2.8rem); line-height: 1.04; letter-spacing: -.045em; }
+.tournament-date { margin-top: 7px; color: var(--muted); font-size: .87rem; line-height: 1.4; }
+.tournament-stats { margin-top: 19px; }
+.tournament-stats > div { border-color: #c0c5ae; }
+.tournament-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; margin-top: 20px; }
+.tournament-gallery img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; }
+.tournament-gallery figcaption { margin-top: 7px; color: var(--muted); font-size: .76rem; line-height: 1.32; }
+.tournament-case .source { margin-top: 14px; }
+
 .closing { min-height: clamp(500px, calc(100svh - 176px), 790px); }
 .closing .copy { max-width: min(790px, 100%); z-index: 1; }
 .closing .copy > img { width: 190px; height: auto; margin-bottom: 34px; }
@@ -357,7 +367,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .lead { margin-top: 13px; max-width: 42ch; }
   .eyebrow { font-size: .73rem; margin-bottom: 13px; }
   .source { margin-top: 17px; }
-  .wellness-board, .city-board { padding: 23px var(--panel); }
+  .wellness-board, .city-board, .tournament-case { padding: 23px var(--panel); }
   .fact-grid { gap: 17px 12px; }
   .fact-grid dt { font-size: clamp(1.55rem, 7vw, 2.8rem); }
   .bleed-media { height: clamp(220px, 44vw, 310px); }

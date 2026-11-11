@@ -1,6 +1,6 @@
 # Parcerias Montreal
 
-Apresentação estática em 16 telas. Abra `index.html` para revisar localmente. Os arquivos de imagem e fonte ficam em `assets/`.
+Apresentação estática em 17 telas. Abra `index.html` para revisar localmente. Os arquivos de imagem e fonte ficam em `assets/`.
 
 ## Publicação
 
