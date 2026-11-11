@@ -238,13 +238,20 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 .address { line-height: 1.4; margin-top: 24px; }
-.map-frame, .court-examples, .video-frame, .site-examples, .phone-pair {
+.map-frame, .court-examples, .circulation-photo, .video-frame, .site-examples, .phone-pair {
   min-width: 0;
   align-self: center;
   margin: 28px var(--panel) 28px 0;
 }
 .map-frame img { border-radius: 14px; width: 100%; height: auto; }
-:is(.map-frame, .court-examples, .video-frame, .site-examples, .phone-pair) figcaption { font-size: .78rem; color: var(--muted); margin-top: 10px; }
+:is(.map-frame, .court-examples, .circulation-photo, .video-frame, .site-examples, .phone-pair) figcaption { font-size: .78rem; color: var(--muted); margin-top: 10px; }
+.circulation-photo { text-align: center; }
+.circulation-photo img {
+  width: min(100%, 332px, 34svh);
+  height: auto;
+  margin-inline: auto;
+  border-radius: 14px;
+}
 
 .growth .copy h2 { max-width: 12ch; }
 .occupation { align-self: center; margin: 30px var(--panel) 30px 0; background: #25231f; border: 1px solid #514b40; padding: clamp(19px, 3.3vw, 38px); border-radius: 16px; }
@@ -300,7 +307,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .slide-count { font-size: .86rem; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .slide-name { font-size: .85rem; color: var(--quiet); font-weight: 600; }
 .progress-track { width: clamp(47px, 11vw, 144px); height: 4px; border-radius: 999px; background: #d6dac4; overflow: hidden; }
-.progress-track > span { display: block; width: 6.667%; height: 100%; background: var(--clay); border-radius: inherit; transition: width .2s ease; }
+.progress-track > span { display: block; width: 0; height: 100%; background: var(--clay); border-radius: inherit; transition: width .2s ease; }
 .nav-actions .button-primary { min-width: 119px; }
 
 .index-dialog {
@@ -357,7 +364,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   .inline-stats, .growth-stats, .audience { margin-top: 18px; }
   .gender { margin-top: 16px; }
   .arena-photos { height: clamp(218px, 55vw, 350px); }
-  .map-frame, .court-examples, .video-frame, .site-examples, .phone-pair, .occupation { margin: 0 var(--panel) 23px; }
+  .map-frame, .court-examples, .circulation-photo, .video-frame, .site-examples, .phone-pair, .occupation { margin: 0 var(--panel) 23px; }
+  .circulation-photo img { width: min(100%, 260px); }
   .occupation { padding: 16px 12px; }
   .bars { gap: 5px; margin-top: 13px; }
   .bar-track { height: 122px; }
