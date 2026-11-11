@@ -4,9 +4,9 @@ Apresentação estática em 15 telas. Abra `index.html` para revisar localmente.
 
 ## Publicação
 
-O [repositório da apresentação](https://github.com/viniciusaol/parcerias-montreal) usa o GitHub Pages a partir da raiz da branch `main`. O endereço inicial é [viniciusaol.github.io/parcerias-montreal](https://viniciusaol.github.io/parcerias-montreal/).
+O [repositório da apresentação](https://github.com/viniciusaol/parcerias-montreal) publica [parcerias.montrealtenis.com.br](https://parcerias.montrealtenis.com.br/) pelo GitHub Pages a partir da raiz da branch `main`.
 
-Para ativar o domínio da Montreal, configure `parcerias.montrealtenis.com.br` em **Settings → Pages → Custom domain**. Depois, adicione o registro abaixo à zona DNS na HostGator. Quando o GitHub confirmar a validação e emitir o certificado, habilite **Enforce HTTPS**.
+O domínio personalizado está registrado no arquivo `CNAME` e em **Settings → Pages → Custom domain**. A zona DNS na HostGator usa este apontamento.
 
 | Tipo | Nome | Destino |
 | --- | --- | --- |
