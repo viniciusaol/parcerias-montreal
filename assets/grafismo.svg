@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Gradiente_sem_nome_57);
+      }
+    </style>
+    <radialGradient id="Gradiente_sem_nome_57" data-name="Gradiente sem nome 57" cx="68.54" cy="1047.17" fx="68.54" fy="1047.17" r="1647.07" gradientUnits="userSpaceOnUse">
+      <stop offset=".08" stop-color="#eff3df"/>
+      <stop offset=".19" stop-color="#e4cdb6"/>
+      <stop offset=".35" stop-color="#d4987c"/>
+      <stop offset=".49" stop-color="#c97153"/>
+      <stop offset=".6" stop-color="#c25939"/>
+      <stop offset=".67" stop-color="#c05130"/>
+      <stop offset=".71" stop-color="#b44d2e"/>
+      <stop offset=".78" stop-color="#97432a"/>
+      <stop offset=".87" stop-color="#673323"/>
+      <stop offset=".98" stop-color="#251d1a"/>
+      <stop offset="1" stop-color="#191919"/>
+    </radialGradient>
+  </defs>
+  <rect class="cls-1" x="0" width="1920" height="1080"/>
+</svg>
