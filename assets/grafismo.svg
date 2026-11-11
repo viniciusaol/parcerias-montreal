@@ -3,22 +3,21 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#Gradiente_sem_nome_57);
+        fill: url(#Gradiente_sem_nome_2);
+      }
+
+      .cls-2 {
+        fill: #191919;
       }
     </style>
-    <radialGradient id="Gradiente_sem_nome_57" data-name="Gradiente sem nome 57" cx="68.54" cy="1047.17" fx="68.54" fy="1047.17" r="1647.07" gradientUnits="userSpaceOnUse">
-      <stop offset=".08" stop-color="#eff3df"/>
-      <stop offset=".19" stop-color="#e4cdb6"/>
-      <stop offset=".35" stop-color="#d4987c"/>
-      <stop offset=".49" stop-color="#c97153"/>
-      <stop offset=".6" stop-color="#c25939"/>
-      <stop offset=".67" stop-color="#c05130"/>
-      <stop offset=".71" stop-color="#b44d2e"/>
-      <stop offset=".78" stop-color="#97432a"/>
-      <stop offset=".87" stop-color="#673323"/>
-      <stop offset=".98" stop-color="#251d1a"/>
-      <stop offset="1" stop-color="#191919"/>
-    </radialGradient>
+    <linearGradient id="Gradiente_sem_nome_2" data-name="Gradiente sem nome 2" x1="561.84" y1="540" x2="1358.16" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="#191919"/>
+      <stop offset=".11" stop-color="#2f201c"/>
+      <stop offset=".3" stop-color="#693424"/>
+      <stop offset=".56" stop-color="#c05130"/>
+      <stop offset="1" stop-color="#eff3df"/>
+    </linearGradient>
   </defs>
-  <rect class="cls-1" x="0" width="1920" height="1080"/>
+  <rect class="cls-2" width="1920" height="1080"/>
+  <path class="cls-1" d="M1093.11,275.15c-97.21,0-180.66,49.6-226.73,125.53-13.54-70.17-37.24-115.83-64.78-115.83-32.57,0-59.66,63.56-71.08,156.06-8.65-76.01-27.09-127.38-49.01-127.38-23.65,0-43.22,59.61-50.87,145.41-5.8-61.34-18.03-102.69-32.62-102.69-20.34,0-36.19,80.72-36.19,183.78s15.85,183.74,36.19,183.74c14.59,0,26.82-41.36,32.62-102.69,7.66,85.8,27.23,145.41,50.87,145.41,21.93,0,40.36-51.37,49.01-127.34,11.42,92.46,38.5,156.01,71.08,156.01,27.54,0,51.23-45.66,64.78-115.83,46.07,75.97,129.51,125.53,226.73,125.53,148.63,0,265.05-115.92,265.05-264.82s-116.42-264.87-265.05-264.87Z"/>
 </svg>
