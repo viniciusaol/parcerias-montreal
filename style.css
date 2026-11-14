@@ -290,7 +290,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 .phone-pair img { width: 100%; height: auto; border-radius: 11px; border: 1px solid #6a665d; }
 .instagram-media img:first-child { margin-top: 19px; }
 .booking-media img, .ranking-media img { border-color: var(--line); }
-.activation-photo img { object-position: 65% 50%; }
+.activation-photos {
+  display: grid;
+  grid-template: minmax(0, 1.4fr) minmax(0, 1fr) / repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  min-width: 0;
+  contain: size;
+}
+.activation-photos img { width: 100%; height: 100%; min-height: 0; object-fit: cover; }
+.activation-photo-main { grid-column: 1 / -1; object-position: 62% 100%; }
+.activation-photo-portrait { object-position: center bottom; }
 
 .tournament-case { display: grid; align-content: center; min-width: 0; padding: var(--panel); background: #e5e9d3; }
 .tournament-case h3 { font-size: clamp(1.5rem, 2.65vw, 2.8rem); line-height: 1.04; letter-spacing: -.045em; }
@@ -374,6 +383,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .inline-stats, .growth-stats, .audience { margin-top: 18px; }
   .gender { margin-top: 16px; }
   .arena-photos { height: clamp(218px, 55vw, 350px); }
+  .activation-photos { aspect-ratio: 1; }
   .map-frame, .court-examples, .circulation-photo, .video-frame, .site-examples, .phone-pair, .occupation { margin: 0 var(--panel) 23px; }
   .circulation-photo img { width: min(100%, 260px); }
   .occupation { padding: 16px 12px; }
